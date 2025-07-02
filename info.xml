@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="TROK_THEME(PC)" version="3.2" description="Thème TROK (originalement réalisé par Medusane)"
+  author="Dogastuj"
+  weblink="https://forums.pokemmo.com/index.php?/topic/160495-frenwebsite-team-rooket/">
+
+  <!-- Theme import -->
+  <themes theme_revision="3">
+    <theme path="TROK/" name="TROK" is_mobile="false" />
+  </themes>
+  
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- TO DESACTIVATE SHINY NAME COLOR MOD, COMMENT OR REMOVE FROM HERE -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- Get permission to override themes in order to change shiny name color -->
+  <overlays>
+    <overlay path="data/themes/" />
+  </overlays>
+
+  <!-- import of the edited strings for shiny name color -->
+  <strings string_revision="1">
+    <string path="data/colors/color_es.xml" />
+    <string path="data/colors/color_en.xml" />
+    <string path="data/colors/color_de.xml" />
+    <string path="data/colors/color_fr.xml" />
+    <string path="data/colors/color_it.xml" />
+    <string path="data/colors/color_ja.xml" />
+    <string path="data/colors/color_ko.xml" />
+    <string path="data/colors/color_pl.xml" />
+    <string path="data/colors/color_pt-BR.xml" />
+    <string path="data/colors/color_zh-Hant.xml" />
+    <string path="data/colors/color_zh.xml" />
+  </strings>
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- TO DESACTIVATE SHINY NAME COLOR MOD, COMMENT OR REMOVE UNTIL HERE -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+</resource>
