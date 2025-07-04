@@ -333,6 +333,9 @@
 		<area name="icon-admin" xywh="66,271,30,13" center="true" inset="0,0,1,0"/>
 		<area name="icon-dev" xywh="35,271,29,13" center="true" inset="0,0,1,0"/>
 		<area name="icon-hgm" xywh="4,271,30,13" center="true" inset="0,0,1,0"/>
+    <area name="icon-sm" xywh="98,271,25,13" center="true" inset="0,0,1,0"/>
+    <area name="icon-gd" xywh="125,271,25,13" center="true" inset="0,0,1,0"/>
+    <area name="icon-system" xywh="153,256,29,13" center="true" inset="0,0,1,0"/>
 
 		<area name="monstergear-pic" xywh="66,308,21,16" center="true" inset="0,0,1,0" splitx="L9,R9" splity="T5,B5"/>
 		<area name="row.background" xywh="23,308,17,15" inset="0,1,2,2" splitx="L5,R5" splity="T5,B5"/>
@@ -1148,12 +1151,21 @@
     <alias name="progressbar-orange.progressImage" tint="#c68a55" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-orange.background" ref="progressbar-white.background"/>
 
+    <alias name="progressbar-violet.progressImage" tint="#8b73bd" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-violet.background" ref="progressbar-white.background"/>
+
     <alias name="progressbar-halloween.progressImage" tint="#dd84fd" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-halloween.background" ref="progressbar-white.background"/>
 
 		<alias name="progressbar-pink.progressImage" tint="#FF99CC" ref="progressbar-white.progressImage"/>
 		<alias name="progressbar-pink.background" ref="progressbar-white.background"/>
-	</images>
+
+    <alias name="progressbar-darkred.progressImage" tint="#800000" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-darkred.background" ref="progressbar-white.background"/>
+
+    <alias name="progressbar-gold.progressImage" tint="#d4af37" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-gold.background" ref="progressbar-white.background"/>
+  </images>
 	<images file="res/MainTCTexture.png">
 		<area name="trainer-card.background" xywh="0,0,454,287"/>
 	</images>

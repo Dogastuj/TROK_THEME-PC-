@@ -72,7 +72,7 @@
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
-  <fontDef name="tooltip-font" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#535353" size="12" size_cjk="14" hinting="Full" hinting_cjk="Full" shadow_color="#20FFFFFF" shadow_offset_x="1" shadow_offset_y="1">
+  <fontDef name="tooltip-font" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#535353" size="12" size_cjk="14" hinting="Full" hinting_cjk="Full" shadow_color="#20FFFFFF" shadow_offset_x="1" shadow_offset_y="1" markup="true">
     <fontParam if="disabled" color="#CCC"/>
   </fontDef>
   <fontDef name="tooltip-font-markup" filename="res/fonts/NotoSansCJK-Medium.ttc" markup="true" faces="sc,tc,jp" color="#535353" size="12" size_cjk="14" hinting="Full" hinting_cjk="Full" shadow_color="#20FFFFFF" shadow_offset_x="1" shadow_offset_y="1">
@@ -95,12 +95,12 @@
   </fontDef>
   <fontDef name="pb-dark-orange" ref="pb-dark" color="#BBBBBB"/>
 
-  <fontDef name="noto-8pt" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" border_width="1" border_color="#434343" size="8" incremental="false" characters="0123456789ABCDEF"/>
+  <fontDef name="noto-8pt" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" border_width="1" border_color="#434343" size="8" incremental="false" characters="0123456789ABCDEF" markup="true"/>
 
-  <fontDef name="noto-bold-large-white" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="1" border_color="#282828"/>
+  <fontDef name="noto-bold-large-white" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="16" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" markup="true" border_width="1" border_color="#282828"/>
 
 
-  <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#222222" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>
+  <fontDef name="messagebox" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#222222" hinting="Medium" kerning="false" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848" markup="true"/>
   
   <fontDef name="mechabold" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="14" border_width="1" border_color="#484848" markup="true"/>
   <fontDef name="mechabold-red" ref="mechabold" color="#F09999" />
@@ -115,9 +115,9 @@
   <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#484848" markup="true"/>
 
   <fontDef name="title-font" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" shadow_color="#55000000" shadow_offset_x="1" shadow_offset_y="1" markup="true"/>
-  <fontDef name="title-font-black" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#252525" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight"/>
+  <fontDef name="title-font-black" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#252525" size="12" size_cjk="15" hinting="AutoMedium" hinting_cjk="Slight" markup="true"/>
 
-  <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"/>
+  <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz" markup="true"/>
 
   <fontDef name="console-green" ref="alphabeta" color="#7CB147"/>
   <fontDef name="console-red" ref="alphabeta" color="#FF0000"/>
@@ -126,6 +126,6 @@
   <fontDef name="console-orange" ref="alphabeta" color="#FF9900"/>
   <fontDef name="console" ref="alphabeta" color="#FFFFFF"/>
 
-  <fontDef name="symbols-white" filename="res/fonts/DejaVuLGCSans.ttf" color="#FFFFFF" size="14" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲"/>
+  <fontDef name="symbols-white" filename="res/fonts/DejaVuLGCSans.ttf" color="#FFFFFF" size="14" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲" markup="true"/>
   <fontDef name="symbols-black" ref="symbols-white" color="#000000"/>
 </themes>

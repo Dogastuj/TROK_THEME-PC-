@@ -48,5 +48,7 @@
 	<include filename="ui/pc.xml" />
 	<include filename="ui/staff.xml" />
 	<include filename="main-widgets.xml" />
-	<include filename="notif.xml" />
+
+	<!-- Small notifications -->
+	<include filename="notif.xml"/>
 </themes>

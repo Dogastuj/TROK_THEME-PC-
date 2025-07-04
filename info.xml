@@ -8,9 +8,6 @@
     <theme path="TROK/" name="TROK" is_mobile="false" />
   </themes>
   
-  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-  <!-- TO DESACTIVATE SHINY NAME COLOR MOD, COMMENT OR REMOVE FROM HERE -->
-  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
   <!-- Get permission to override themes in order to change shiny name color -->
   <overlays>
@@ -31,9 +28,5 @@
     <string path="data/colors/color_zh-Hant.xml" />
     <string path="data/colors/color_zh.xml" />
   </strings>
-
-  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-  <!-- TO DESACTIVATE SHINY NAME COLOR MOD, COMMENT OR REMOVE UNTIL HERE -->
-  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
 </resource>

@@ -87,166 +87,30 @@
 					<param name="spacing"><int>1</int></param>
 					<param name="alignment"><enum type="alignment">FILL</enum></param>
 				</theme>
-				<theme name="container" ref="-defaults">
-					 <theme name="dialoglayout" ref="-defaults">
-						<param name="minHeight"><int>190</int></param>
-						<param name="border"><border>10,0,0,0</border></param>
-						<param name="defaultGap"><dimension>5,5</dimension></param>
-						<param name="smallGap"><dimension>8,8</dimension></param>
-						<param name="mediumGap"><dimension>10,10</dimension></param>
-						<param name="largeGap"><dimension>15,15</dimension></param>
-						<param name="namedGaps"><map/></param>
-
-						<theme name="label-monster-area" ref="-defaults">
-							<param name="background"><image>none</image></param>
-							<param name="border"><border>3,5</border></param>
-							<param name="defaultGap"><dimension>5,5</dimension></param>
-							<param name="smallGap"><dimension>8,8</dimension></param>
-							<param name="mediumGap"><dimension>10,10</dimension></param>
-							<param name="largeGap"><dimension>15,15</dimension></param>
-							<param name="namedGaps"><map/></param>
-
-							<theme name="button" ref="-defaults" allowWildcard="true">
-								<param name="font"><font>alphabeta-small</font></param>
-								<param name="border"><border>0,0,0,0</border></param>
-								<param name=""><image>button-small.*</image></param>
-								<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-							</theme>
-
-							<theme name="label-monster-title" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-title</image></param>
-								<param name="border"><border>0,14,2,4</border></param>
-								<param name="minWidth"><int>100</int></param>
-								<param name="font"><font>alphabeta-small</font></param>
-							</theme>
-
-							<!-- Used with higher boxes -->
-							<theme name="label-monster-title-wide" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-title-inset</image></param>
-								<param name="border"><border>0,15,0,5</border></param>
-								<param name="minWidth"><int>100</int></param>
-								<param name="font"><font>alphabeta-small</font></param>
-							</theme>
-
-							<theme name="label-monster-title-full" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-title</image></param>
-								<param name="border"><border>0,15,0,5</border></param>
-								<param name="minWidth"><int>230</int></param>
-								<param name="font"><font>alphabeta-small</font></param>
-							</theme>
-
-                            <!-- Active Skills -->
-							<theme name="label-skill-use-name" ref="button" allowWildcard="true">
-								<param name=""><image>mi-skill-use.*</image></param>
-								<param name="border"><border>0,0,1,40</border></param>
-								<param name="minHeight"><int>42</int></param>
-								<param name="maxHeight"><int>42</int></param>
-								<param name="minWidth"><int>164</int></param>
-								<param name="maxWidth"><int>164</int></param>
-								<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-							</theme>
-							<!-- Inactive Skill -->
-							<theme name="label-skill-name" ref="button" allowWildcard="true">
-								<param name="background"><image>mi-skill</image></param>
-								<param name="border"><border>0,0,0,41</border></param>
-								<param name="minHeight"><int>43</int></param>
-								<param name="maxHeight"><int>43</int></param>
-								<param name="minWidth"><int>164</int></param>
-								<param name="maxWidth"><int>164</int></param>
-
-								<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-							</theme>
-
-							<theme name="label-monster-value" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-value</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>4,5,5,25</border></param>
-								<param name="maxWidth"><int>110</int></param>
-								<param name="minWidth"><int>110</int></param>
-								<param name="font"><font>alphabeta-small</font></param>
-							</theme>
-
-                            <theme name="label-hidden-ability" ref="label-monster-value">
-                                <param name="font"><font>alphabeta-yellow</font></param>
-                            </theme>
-
-							<theme name="label-monster-value-stat-complete" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-value</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>4,5,5,25</border></param>
-								<param name="maxWidth"><int>110</int></param>
-								<param name="minWidth"><int>110</int></param>
-								<param name="font"><font>alphabeta-lightgreen</font></param>
-							</theme>
-
-							<theme name="label-monster-value-stat-bad" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-value</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>4,5,5,25</border></param>
-								<param name="maxWidth"><int>110</int></param>
-								<param name="minWidth"><int>110</int></param>
-								<param name="font"><font>alphabeta-red</font></param>
-							</theme>
-
-							<theme name="label-monster-value-center" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-value</image></param>
-								<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-								<param name="border"><border>15,25,15,25</border></param>
-								<param name="maxWidth"><int>110</int></param>
-								<param name="minWidth"><int>110</int></param>
-								<param name="font"><font>alphabeta-small</font></param>
-							</theme>
-
-							<theme name="label-monster-value-tooltip" ref="label-monster-value" allowWildcard="true">
-								<param name="mouseCursor"><cursor>cursor.help</cursor></param>
-							</theme>
-
-							<theme name="label-monster-value3" ref="label" allowWildcard="true">
-								<param name="background"><image>none</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>1,0,0,5</border></param>
-								<param name="font"><font>pb-dark</font></param>
-							</theme>
-
-							<theme name="label-monster-value-name" ref="label" allowWildcard="true">
-								<param name="background"><image>mi-label-value-inset</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>2,0,0,0</border></param>
-								<param name="maxWidth"><int>92</int></param>
-								<param name="minWidth"><int>92</int></param>
-								<param name="font"><font>alphabeta</font></param>
-							</theme>
-
-							<theme name="label-skill-arrowdown" ref="label" allowWildcard="true">
-								<param name="background"><image>none</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>0,4,0,1</border></param>
-								<param name="maxWidth"><int>104</int></param>
-								<param name="minWidth"><int>104</int></param>
-								<param name="font"><font>pb-dark</font></param>
-							</theme>
-							<theme name="label-skill-arrowup" ref="label" allowWildcard="true">
-								<param name="background"><image>none</image></param>
-								<param name="textAlignment"><enum type="alignment">left</enum></param>
-								<param name="border"><border>0,4,0,1</border></param>
-								<param name="maxWidth"><int>104</int></param>
-								<param name="minWidth"><int>104</int></param>
-								<param name="font"><font>pb-dark</font></param>
-							</theme>
-							<theme name="level-toggle" ref="button">
-								<param name="background"><image>icon.refresh</image></param>
-								<param name="maxWidth"><int>16</int></param>
-								<param name="maxHeight"><int>16</int></param>
-								<param name="border"><border>0</border></param>
-							</theme>
-							<theme name="label" ref="-defaults">
-								<param name="font"><font>alphabeta</font></param>
-								<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-							</theme>
-						</theme>
-
-					</theme>
-				</theme>
+        <theme name="container" ref="-defaults">
+          <theme name="dialoglayout" ref="-defaults">
+            <param name="minHeight"><int>190</int></param>
+            <param name="border"><border>10,0,0,0</border></param>
+            <param name="defaultGap"><dimension>5,5</dimension></param>
+            <param name="smallGap"><dimension>8,8</dimension></param>
+            <param name="mediumGap"><dimension>10,10</dimension></param>
+            <param name="largeGap"><dimension>15,15</dimension></param>
+            <param name="namedGaps"><map/></param>
+          </theme>
+          <theme name="scrollpane" ref="scrollpane">
+            <param name="minHeight"><int>190</int></param>
+            <param name="border"><border>10,0,0,0</border></param>
+            <param name="defaultGap"><dimension>5,5</dimension></param>
+            <param name="smallGap"><dimension>8,8</dimension></param>
+            <param name="mediumGap"><dimension>10,10</dimension></param>
+            <param name="largeGap"><dimension>15,15</dimension></param>
+            <param name="namedGaps"><map/></param>
+            <theme name="dialoglayout" ref="dialoglayout">
+              <param name="minHeight"><int>190</int></param>
+              <param name="border"><border>0</border></param>
+            </theme>
+          </theme>
+        </theme>
 				<param name="inputMap"><inputMapDef>
 					<action name="nextTab">CTRL TAB</action>
 					<action name="prevTab">CTRL SHIFT TAB</action>
@@ -254,6 +118,154 @@
 			</theme>
 		</theme>
 	</theme>
+
+  <theme name="label-monster-area" ref="-defaults">
+    <param name="background"><image>none</image></param>
+    <param name="border"><border>3,5</border></param>
+    <param name="defaultGap"><dimension>5,5</dimension></param>
+    <param name="smallGap"><dimension>8,8</dimension></param>
+    <param name="mediumGap"><dimension>10,10</dimension></param>
+    <param name="largeGap"><dimension>15,15</dimension></param>
+    <param name="namedGaps"><map/></param>
+
+    <theme name="button" ref="-defaults" allowWildcard="true">
+      <param name="font"><font>alphabeta-small</font></param>
+      <param name="border"><border>0,0,0,0</border></param>
+      <param name=""><image>button-small.*</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+
+    <theme name="label-monster-title" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-title</image></param>
+      <param name="border"><border>0,14,2,4</border></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="font"><font>alphabeta-small</font></param>
+    </theme>
+
+    <!-- Used with higher boxes -->
+    <theme name="label-monster-title-wide" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-title-inset</image></param>
+      <param name="border"><border>0,15,0,5</border></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="font"><font>alphabeta-small</font></param>
+    </theme>
+
+    <theme name="label-monster-title-full" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-title</image></param>
+      <param name="border"><border>0,15,0,5</border></param>
+      <param name="minWidth"><int>230</int></param>
+      <param name="font"><font>alphabeta-small</font></param>
+    </theme>
+
+    <!-- Active Skills -->
+    <theme name="label-skill-use-name" ref="button" allowWildcard="true">
+      <param name=""><image>mi-skill-use.*</image></param>
+      <param name="border"><border>0,0,1,40</border></param>
+      <param name="minHeight"><int>42</int></param>
+      <param name="maxHeight"><int>42</int></param>
+      <param name="minWidth"><int>164</int></param>
+      <param name="maxWidth"><int>164</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <!-- Inactive Skill -->
+    <theme name="label-skill-name" ref="button" allowWildcard="true">
+      <param name="background"><image>mi-skill</image></param>
+      <param name="border"><border>0,0,0,41</border></param>
+      <param name="minHeight"><int>43</int></param>
+      <param name="maxHeight"><int>43</int></param>
+      <param name="minWidth"><int>164</int></param>
+      <param name="maxWidth"><int>164</int></param>
+
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+
+    <theme name="label-monster-value" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-value</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>4,5,5,25</border></param>
+      <param name="maxWidth"><int>110</int></param>
+      <param name="minWidth"><int>110</int></param>
+      <param name="font"><font>alphabeta-small</font></param>
+    </theme>
+
+    <theme name="label-hidden-ability" ref="label-monster-value">
+      <param name="font"><font>alphabeta-yellow</font></param>
+    </theme>
+
+    <theme name="label-monster-value-stat-complete" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-value</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>4,5,5,25</border></param>
+      <param name="maxWidth"><int>110</int></param>
+      <param name="minWidth"><int>110</int></param>
+      <param name="font"><font>alphabeta-lightgreen</font></param>
+    </theme>
+
+    <theme name="label-monster-value-stat-bad" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-value</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>4,5,5,25</border></param>
+      <param name="maxWidth"><int>110</int></param>
+      <param name="minWidth"><int>110</int></param>
+      <param name="font"><font>alphabeta-red</font></param>
+    </theme>
+
+    <theme name="label-monster-value-center" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-value</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="border"><border>15,25,15,25</border></param>
+      <param name="maxWidth"><int>110</int></param>
+      <param name="minWidth"><int>110</int></param>
+      <param name="font"><font>alphabeta-small</font></param>
+    </theme>
+
+    <theme name="label-monster-value-tooltip" ref="label-monster-value" allowWildcard="true">
+      <param name="mouseCursor"><cursor>cursor.help</cursor></param>
+    </theme>
+
+    <theme name="label-monster-value3" ref="label" allowWildcard="true">
+      <param name="background"><image>none</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>1,0,0,5</border></param>
+      <param name="font"><font>pb-dark</font></param>
+    </theme>
+
+    <theme name="label-monster-value-name" ref="label" allowWildcard="true">
+      <param name="background"><image>mi-label-value-inset</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>2,0,0,0</border></param>
+      <param name="maxWidth"><int>92</int></param>
+      <param name="minWidth"><int>92</int></param>
+      <param name="font"><font>alphabeta</font></param>
+    </theme>
+
+    <theme name="label-skill-arrowdown" ref="label" allowWildcard="true">
+      <param name="background"><image>none</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>0,4,0,1</border></param>
+      <param name="maxWidth"><int>104</int></param>
+      <param name="minWidth"><int>104</int></param>
+      <param name="font"><font>pb-dark</font></param>
+    </theme>
+    <theme name="label-skill-arrowup" ref="label" allowWildcard="true">
+      <param name="background"><image>none</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>0,4,0,1</border></param>
+      <param name="maxWidth"><int>104</int></param>
+      <param name="minWidth"><int>104</int></param>
+      <param name="font"><font>pb-dark</font></param>
+    </theme>
+    <theme name="level-toggle" ref="button">
+      <param name="background"><image>icon.refresh</image></param>
+      <param name="maxWidth"><int>16</int></param>
+      <param name="maxHeight"><int>16</int></param>
+      <param name="border"><border>0</border></param>
+    </theme>
+    <theme name="label" ref="-defaults">
+      <param name="font"><font>alphabeta</font></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+    </theme>
+  </theme>
 
 	<!-- Custom Tab section for Monster Frame -->
 	<theme name="monster-frame-tab" ref="-defaults" allowWildcard="true">

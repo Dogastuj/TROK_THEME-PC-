@@ -69,7 +69,7 @@
         </theme>
     </theme>
 
-	<theme name="breed-group" ref="-defaults">
+  <theme name="breed-group" ref="-defaults">
     <param name="defaultGap"><dimension>2,2</dimension></param>
     <param name="smallGap"><dimension>8,8</dimension></param>
     <param name="mediumGap"><dimension>10,10</dimension></param>
@@ -231,27 +231,6 @@
 		</theme>
 	</theme>
 
-	<theme name="high-score-window" ref="base-frame">
-		<param name="minWidth"><int>770</int></param>
-		<param name="minHeight"><int>400</int></param>
-		<theme name="dialoglayout" ref="-defaults" allowWildcard="true">
-			<param name="background"><image>none</image></param>
-			<param name="border"><border>40,8,5,8</border></param>
-			<param name="defaultGap"><dimension>1,1</dimension></param>
-			<param name="smallGap"><dimension>2,2</dimension></param>
-			<param name="mediumGap"><dimension>4,4</dimension></param>
-			<param name="largeGap"><dimension>6,6</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<theme name="label" ref="label">
-				<param name="fadeDurationShow"><int>200</int></param>
-				<param name="fadeDurationHide"><int>0</int></param>
-				<param name="minWidth"><int>150</int></param>
-				<param name="font"><font>pb-dark</font></param>
-				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-			</theme>
-		</theme>
-	</theme>
-
 	<theme name="high-score-table" ref="table" allowWildcard="true">
 		<param name="minWidth"><int>650</int></param>
 		<param name="columnWidths">
@@ -270,9 +249,13 @@
 			<param name="border"><border>0,0</border></param>
 			<param name="spacing"><int>10</int></param>
 			<param name="alignment"><enum type="alignment">RIGHT</enum></param>
-			<theme name="label" ref="label">
-				<param name="border"><border>0,0</border></param>
-			</theme>
+      <theme name="label" ref="label">
+        <param name="border"><border>0,0</border></param>
+      </theme>
+      <theme name="label-self" ref="label">
+        <param name="border"><border>0,0</border></param>
+        <param name="font"><font>alphabeta-lightgreen</font></param>
+      </theme>
 		</theme>
 	</theme>
 
